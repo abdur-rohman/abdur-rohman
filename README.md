@@ -23,7 +23,7 @@ Person who has a high willingness to learn a new knowledge, works by combining t
 
     ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=java&logoColor=50c6fc)
     ![Kotlin](https://img.shields.io/badge/-Kotlin-333333?style=flat&logo=kotlin&logoColor=FF6D0A)
-    ![Dart](https://img.shields.io/badge/-Kotlin-333333?style=flat&logo=dart&logoColor=2CB6F6)
+    ![Dart](https://img.shields.io/badge/-Dart-333333?style=flat&logo=dart&logoColor=2CB6F6)
     ![Android SDK](https://img.shields.io/badge/-Android%20SDK-333333?style=flat&logo=android)
     ![Flutter](https://img.shields.io/badge/-Flutter-333333?style=flat&logo=flutter&logoColor=2CB6F6)
 
