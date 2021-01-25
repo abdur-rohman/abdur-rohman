@@ -55,7 +55,9 @@ Person who has a high willingness to learn a new knowledge, works by combining t
 <p>
 <a href="https://github.com/abdur-rohman2883">
   <img height="240em" src="https://github-readme-stats.vercel.app/api?username=abdur-rohman2883&show_icons=true&theme=radical" />
-  
+    
+<div style="">
+    
   <img height="200em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=abdur-rohman2883&theme=radical&layout=compact" />
 </a>
 </p>
