@@ -13,13 +13,13 @@ Person who has a high willingness to learn a new knowledge, works by combining t
 
 ## __🛠 &nbsp;Tech Stack__
 
-- ### 🌐 Web Development
+- ### 🌐 &nbsp;Web Development
 
     ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
     ![Vue](https://img.shields.io/badge/-Vue-333333?style=flat&logo=vue.js)
     ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
 
-- ### 📱 Mobile Development
+- ### 📱 &nbsp;Mobile Development
 
     ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=java&logoColor=50c6fc)
     ![Kotlin](https://img.shields.io/badge/-Kotlin-333333?style=flat&logo=kotlin&logoColor=FF6D0A)
@@ -27,7 +27,7 @@ Person who has a high willingness to learn a new knowledge, works by combining t
     ![Android SDK](https://img.shields.io/badge/-Android%20SDK-333333?style=flat&logo=android)
     ![Flutter](https://img.shields.io/badge/-Flutter-333333?style=flat&logo=flutter&logoColor=2CB6F6)
 
-- ### 🛢 Storage
+- ### 🛢 &nbsp;Storage
 
     ![MongoDB](https://img.shields.io/badge/-MongoDB-333333?style=flat&logo=mongodb)
     ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=flat&logo=postgresql&logoColor=336791)
@@ -36,7 +36,7 @@ Person who has a high willingness to learn a new knowledge, works by combining t
     ![Hive](https://img.shields.io/badge/-Hive-333333?style=flat&logo=hive)
     ![Firebase](https://img.shields.io/badge/-Firebase-333333?style=flat&logo=firebase)
 
-- ### ⚙️ Versioning Control System
+- ### ⚙️ &nbsp;Versioning Control System
 
     ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
     ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
@@ -44,7 +44,7 @@ Person who has a high willingness to learn a new knowledge, works by combining t
     ![BitBucket](https://img.shields.io/badge/-BitBucket-333333?style=flat&logo=bitbucket&logoColor=2683FF)
     ![Markdown](https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown)
 
-- ### 🔧 Code Editor
+- ### 🔧 &nbsp;Code Editor
 
     ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
     ![Android Studio](https://img.shields.io/badge/-Android%20Studio-333333?style=flat&logo=android-studio&logoColor=50F092)
