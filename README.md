@@ -15,44 +15,44 @@ Person who has a high willingness to learn a new knowledge, works by combining t
 
 - ### 🌐 &nbsp;Web Development
 
-  ![JavaScript](https://img.shields.io/badge/-JavaScript-111111?style=for-the-badge&logo=javascript)
-  ![Node.js](https://img.shields.io/badge/-Node%20js-111111?style=for-the-badge&logo=node.js)
-  ![Java](https://img.shields.io/badge/-Java-111111?style=for-the-badge&logo=java&logoColor=50c6fc)
-  ![Kotlin](https://img.shields.io/badge/-Kotlin-111111?style=for-the-badge&logo=kotlin&logoColor=FF6D0A)
-  ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-111111?style=for-the-badge&logo=spring&logoColor=6DB33F)
-  ![Go](https://img.shields.io/badge/-Go-111111?style=for-the-badge&logo=go)
-  ![Go Echo](https://img.shields.io/badge/-Go%20Echo-111111?style=for-the-badge)
+  ![JavaScript](https://img.shields.io/badge/-JavaScript-555555?style=for-the-badge&logo=javascript)&nbsp;
+  ![Node.js](https://img.shields.io/badge/-Node%20js-555555?style=for-the-badge&logo=node.js)&nbsp;
+  ![Java](https://img.shields.io/badge/-Java-555555?style=for-the-badge&logo=java&logoColor=50c6fc)&nbsp;
+  ![Kotlin](https://img.shields.io/badge/-Kotlin-555555?style=for-the-badge&logo=kotlin&logoColor=FF6D0A)&nbsp;
+  ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-555555?style=for-the-badge&logo=spring&logoColor=6DB33F)&nbsp;
+  ![Go](https://img.shields.io/badge/-Go-555555?style=for-the-badge&logo=go)&nbsp;
+  ![Go Echo](https://img.shields.io/badge/-Go%20Echo-555555?style=for-the-badge)&nbsp;
 
 - ### 📱 &nbsp;Mobile Development
 
-  ![Java](https://img.shields.io/badge/-Java-111111?style=for-the-badge&logo=java&logoColor=50c6fc)
-  ![Kotlin](https://img.shields.io/badge/-Kotlin-111111?style=for-the-badge&logo=kotlin&logoColor=FF6D0A)
-  ![Android SDK](https://img.shields.io/badge/-Android%20SDK-111111?style=for-the-badge&logo=android)
-  ![Dart](https://img.shields.io/badge/-Dart-111111?style=for-the-badge&logo=dart&logoColor=2CB6F6)
-  ![Flutter](https://img.shields.io/badge/-Flutter-111111?style=for-the-badge&logo=flutter&logoColor=2CB6F6)
+  ![Java](https://img.shields.io/badge/-Java-555555?style=for-the-badge&logo=java&logoColor=50c6fc)&nbsp;
+  ![Kotlin](https://img.shields.io/badge/-Kotlin-555555?style=for-the-badge&logo=kotlin&logoColor=FF6D0A)&nbsp;
+  ![Android SDK](https://img.shields.io/badge/-Android%20SDK-555555?style=for-the-badge&logo=android)&nbsp;
+  ![Dart](https://img.shields.io/badge/-Dart-555555?style=for-the-badge&logo=dart&logoColor=2CB6F6)&nbsp;
+  ![Flutter](https://img.shields.io/badge/-Flutter-555555?style=for-the-badge&logo=flutter&logoColor=2CB6F6)&nbsp;
 
 - ### 🛢 &nbsp;Storage
 
-  ![MongoDB](https://img.shields.io/badge/-MongoDB-111111?style=for-the-badge&logo=mongodb)
-  ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=336791)
-  ![MySQL](https://img.shields.io/badge/-MySQL-111111?style=for-the-badge&logo=mysql)
-  ![SQLite](https://img.shields.io/badge/-SQLite-111111?style=for-the-badge&logo=sqlite)
-  ![Hive](https://img.shields.io/badge/-Hive-111111?style=for-the-badge&logo=hive)
-  ![Firebase](https://img.shields.io/badge/-Firebase-111111?style=for-the-badge&logo=firebase)
+  ![MongoDB](https://img.shields.io/badge/-MongoDB-555555?style=for-the-badge&logo=mongodb)&nbsp;
+  ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-555555?style=for-the-badge&logo=postgresql&logoColor=2683FF)&nbsp;
+  ![MySQL](https://img.shields.io/badge/-MySQL-555555?style=for-the-badge&logo=mysql&logoColor=2CB6F6)&nbsp;
+  ![SQLite](https://img.shields.io/badge/-SQLite-555555?style=for-the-badge&logo=sqlite)&nbsp;
+  ![Hive](https://img.shields.io/badge/-Hive-555555?style=for-the-badge&logo=hive)&nbsp;
+  ![Firebase](https://img.shields.io/badge/-Firebase-555555?style=for-the-badge&logo=firebase)&nbsp;
 
 - ### ⚙️ &nbsp;Versioning Control System
 
-  ![Git](https://img.shields.io/badge/-Git-111111?style=for-the-badge&logo=git)
-  ![GitHub](https://img.shields.io/badge/-GitHub-111111?style=for-the-badge&logo=github)
-  ![GitLab](https://img.shields.io/badge/-GitLab-111111?style=for-the-badge&logo=gitlab)
-  ![BitBucket](https://img.shields.io/badge/-BitBucket-111111?style=for-the-badge&logo=bitbucket&logoColor=2683FF)
-  ![Markdown](https://img.shields.io/badge/-Markdown-111111?style=for-the-badge&logo=markdown)
+  ![Git](https://img.shields.io/badge/-Git-555555?style=for-the-badge&logo=git)&nbsp;
+  ![GitHub](https://img.shields.io/badge/-GitHub-555555?style=for-the-badge&logo=github)&nbsp;
+  ![GitLab](https://img.shields.io/badge/-GitLab-555555?style=for-the-badge&logo=gitlab)&nbsp;
+  ![BitBucket](https://img.shields.io/badge/-BitBucket-555555?style=for-the-badge&logo=bitbucket&logoColor=2683FF)&nbsp;
+  ![Markdown](https://img.shields.io/badge/-Markdown-555555?style=for-the-badge&logo=markdown)&nbsp;
 
 - ### 🔧 &nbsp;Code Editor
 
-  ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-111111?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
-  ![Android Studio](https://img.shields.io/badge/-Android%20Studio-111111?style=for-the-badge&logo=android-studio)
-  ![Intellij Idea](https://img.shields.io/badge/-Intellij%20Idea-111111?style=for-the-badge&logo=intellij-idea)
+  ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-555555?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)&nbsp;
+  ![Android Studio](https://img.shields.io/badge/-Android%20Studio-555555?style=for-the-badge&logo=android-studio)&nbsp;
+  ![Intellij Idea](https://img.shields.io/badge/-Intellij%20Idea-555555?style=for-the-badge&logo=intellij-idea)&nbsp;
 
 ## **📉 &nbsp;My Statistics**
 
