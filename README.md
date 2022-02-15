@@ -1,4 +1,4 @@
-# Hello there 👋, I'm Abdur Rohman you can call me Rohman or Maman.
+# Hello there <img alt="Hello" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="33px">. I'm Abdur Rohman you can call me Rohman or Maman.
 
 Person who has a high willingness to learn a new knowledge, works by combining the brain and muscles to get satisfying results and coordinating tasks by giving ideas that facilitate work and success.
 
@@ -11,7 +11,7 @@ Person who has a high willingness to learn a new knowledge, works by combining t
 - 🎮 &nbsp; I love playing PUBGM and Dota 2
 - 🏋️‍♂️ &nbsp; I love weight lifting and jogging too
 
-## **🛠 &nbsp;Tech Stack**
+## **🛠 &nbsp;Tech Stacks**
 
 - ### 🌐 &nbsp;Web Development
 
