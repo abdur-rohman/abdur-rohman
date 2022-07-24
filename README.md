@@ -4,12 +4,10 @@ Person who has a high willingness to learn a new knowledge, works by combining t
 
 ## **💻 &nbsp;About Me**
 
-- 🏠 &nbsp; Currenctly in Yogyakarta, Indonesia
+- 🏠 &nbsp; Currenctly in Sleman, Yogyakarta, Indonesia
 - 🏢 &nbsp; Currenctly working at [Refactory.id](https://refactory.id/) as Mobile Engineer
 - 🎓 &nbsp; Graduated from Technical Information at [Universitas Muhammadiyah Surakarta](https://www.ums.ac.id/en/home/)
 - 👨‍💻 &nbsp; Track on learning Mobile Development and BackEnd Development
-- 🎮 &nbsp; I love playing PUBGM and Dota 2
-- 🏋️‍♂️ &nbsp; I love weight lifting and jogging too
 
 ## **🛠 &nbsp;Tech Stacks**
 
