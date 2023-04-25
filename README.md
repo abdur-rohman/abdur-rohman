@@ -5,7 +5,7 @@ Person who has a high willingness to learn a new knowledge, works by combining t
 ## **💻 &nbsp;About Me**
 
 - 🏠 &nbsp; Currenctly in Sleman, Yogyakarta, Indonesia
-- 🏢 &nbsp; Currenctly working at [Refactory.id](https://refactory.id/) as Mobile Engineer
+- 🏢 &nbsp; Currenctly looking for a job as Mobile Engineer
 - 🎓 &nbsp; Graduated from Technical Information at [Universitas Muhammadiyah Surakarta](https://www.ums.ac.id/en/home/)
 - 👨‍💻 &nbsp; Track on learning Mobile Development and BackEnd Development
 
@@ -25,6 +25,8 @@ Person who has a high willingness to learn a new knowledge, works by combining t
 
   ![Java](https://img.shields.io/badge/-Java-555555?style=for-the-badge&logo=java&logoColor=50c6fc)&nbsp;
   ![Kotlin](https://img.shields.io/badge/-Kotlin-555555?style=for-the-badge&logo=kotlin&logoColor=FF6D0A)&nbsp;
+  ![Swift](https://img.shields.io/badge/-Swift-555555?style=for-the-badge&logo=swift&logoColor=FF6D0A)&nbsp;
+  ![Swift UI](https://img.shields.io/badge/-Swift%20UI-555555?style=for-the-badge&logo=swift&logoColor=FF6D0A)&nbsp;
   ![Android SDK](https://img.shields.io/badge/-Android%20SDK-555555?style=for-the-badge&logo=android)&nbsp;
   ![Dart](https://img.shields.io/badge/-Dart-555555?style=for-the-badge&logo=dart&logoColor=2CB6F6)&nbsp;
   ![Flutter](https://img.shields.io/badge/-Flutter-555555?style=for-the-badge&logo=flutter&logoColor=2CB6F6)&nbsp;
@@ -37,6 +39,7 @@ Person who has a high willingness to learn a new knowledge, works by combining t
   ![SQLite](https://img.shields.io/badge/-SQLite-555555?style=for-the-badge&logo=sqlite)&nbsp;
   ![Hive](https://img.shields.io/badge/-Hive-555555?style=for-the-badge&logo=hive)&nbsp;
   ![Firebase](https://img.shields.io/badge/-Firebase-555555?style=for-the-badge&logo=firebase)&nbsp;
+  ![Oracle](https://img.shields.io/badge/-Oracle-555555?style=for-the-badge&logo=oracle)&nbsp;
 
 - ### ⚙️ &nbsp;Versioning Control System
 
