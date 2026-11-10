@@ -5,7 +5,7 @@
 <sub>call me <b>Rohman</b> or <b>Maman</b></sub>
 
 <a href="https://github.com/abdur-rohman">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=2CB6F6&center=true&vCenter=true&width=520&lines=Senior+Mobile+Developer;Flutter+%C2%B7+Android+%C2%B7+iOS;Spring+Boot+%26+Go+on+the+backend;Building+with+Antigravity+%2B+Claude+Code" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=2CB6F6&center=true&vCenter=true&width=520&lines=Senior+Mobile+Developer;Flutter+%C2%B7+Android+%C2%B7+iOS;Spring+Boot+%26+Go+on+the+backend;Building+with+VS+Code+%2B+Claude+Code" alt="Typing SVG" />
 </a>
 
 <p>
@@ -36,7 +36,7 @@ Senior Mobile Developer with **5+ years** building production Flutter apps and g
 - 🧑‍🏫 &nbsp;**Tech Fellow & Training Manager** at Refactory · 2021 – 2023
 - 🎓 &nbsp;**Informatics**, [Universitas Muhammadiyah Surakarta](https://www.ums.ac.id/en/home/)
 - 🏠 &nbsp;Based in **Yogyakarta, Indonesia**
-- 🤖 &nbsp;Shipping with an AI-assisted workflow: **Antigravity + Claude Code** agents
+- 🤖 &nbsp;Shipping with an AI-assisted workflow: **VS Code + Claude Code**, 10 orchestrated agents
 
 ## 🛠 &nbsp;Tech Stack
 
@@ -57,26 +57,39 @@ Senior Mobile Developer with **5+ years** building production Flutter apps and g
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Editor-Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity"/>
+<img src="https://img.shields.io/badge/Editor-VS%20Code-007ACC?style=for-the-badge" alt="VS Code"/>
 <img src="https://img.shields.io/badge/Agent-Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code"/>
 
 </div>
 
-I write code in **Antigravity** and pair with **Claude Code**. Multi-part work (a ticket, a review round, a cross-layer refactor) goes to an **orchestrator** agent that routes each piece to a specialist, one owner per file, and reports one consolidated result.
+I write code in **VS Code** and pair with **Claude Code**. Multi-part work (a ticket, a review round, a cross-layer refactor) goes to an **orchestrator** agent that hands each piece to one specialist, one owner per file, and nothing is called done before the review gate.
 
 ```mermaid
-flowchart TD
-    Me([👨‍💻 Me]) --> O[orchestrator<br/>Opus]
-    O -->|1. investigate| R[researcher<br/>Sonnet · read-only]
-    O -->|2. build| D[developer<br/>Opus]
-    O -->|2. test| T[tester<br/>Sonnet]
-    O -->|build & CI| RE[release-engineer<br/>Sonnet]
-    O -->|3. docs| DOC[documenter<br/>Haiku]
-    O -->|4. gate| L[lensa-reviewer<br/>Sonnet · read-only]
-    O -->|tickets| TM[ticket-manager<br/>Sonnet]
-    L -. findings .-> D
-    L -. findings .-> T
+flowchart LR
+    Me([👨‍💻 Me]) ==> O{{orchestrator<br/>Opus · routes work}}:::opus
+
+    O -->|1 · investigate| R[researcher<br/>Sonnet · read-only]:::sonnet
+    O -->|2 · data layer| DD[data-developer<br/>Sonnet]:::sonnet
+    O -->|3 · screens| UI[ui-developer<br/>Opus]:::opus
+    O -->|3 · tests| T[tester<br/>Sonnet]:::sonnet
+    O -->|4 · docs| DOC[documenter<br/>Haiku]:::haiku
+    O -->|5 · gate| L[lensa-reviewer<br/>Opus · read-only]:::opus
+
+    O -.->|build & CI| RE[release-engineer<br/>Sonnet]:::sonnet
+    O -.->|tickets| TM[ticket-manager<br/>Sonnet]:::sonnet
+    O -.->|plans & retros| PM[project-manager<br/>Opus]:::opus
+
+    L -. findings .-> UI
+    L -. findings .-> DD
+
+    classDef opus fill:#7c9cff,stroke:#7c9cff,color:#0b1020,font-weight:bold
+    classDef sonnet fill:#111827,stroke:#7c9cff,color:#e5e7eb
+    classDef haiku fill:#111827,stroke:#7c9cff,color:#e5e7eb,stroke-dasharray:5 4
 ```
+
+<div align="center">
+<sub>🟦 <b>Opus</b> · filled &nbsp;|&nbsp; <b>Sonnet</b> · outlined &nbsp;|&nbsp; <b>Haiku</b> · dashed &nbsp;|&nbsp; numbers give the run order, dashed arrows run on demand</sub>
+</div>
 
 <details>
 <summary><b>Agent roster</b></summary>
@@ -86,15 +99,17 @@ flowchart TD
 | Agent | Model | Owns |
 | --- | --- | --- |
 | `orchestrator` | Opus | Splits the task, dispatches specialists, reconciles results |
-| `researcher` | Sonnet | Where code lives, how a flow works, what the ticket/API contract says |
-| `developer` | Opus | Production code, including native Android/iOS source |
-| `tester` | Sonnet | Unit/widget/controller tests, mocks, coverage |
-| `release-engineer` | Sonnet | CI, fastlane, Gradle/Podfile/Xcode, signing, dependencies |
+| `researcher` | Sonnet | Where code lives, how a flow works, the ticket and API contract |
+| `data-developer` | Sonnet | API clients, models, repositories, services, DI, native source |
+| `ui-developer` | Opus | Pages, widgets, controllers, bindings, animations, routes |
+| `tester` | Sonnet | Unit, widget and controller tests, mocks, coverage |
 | `documenter` | Haiku | README, project rules, analytics event registry |
-| `lensa-reviewer` | Sonnet | Self-review against the merge quality gate before done |
+| `lensa-reviewer` | Opus | Self-review against the merge quality gate, read-only |
+| `release-engineer` | Sonnet | CI, fastlane, Gradle, Podfile, Xcode, signing, dependencies |
 | `ticket-manager` | Sonnet | Creating and splitting tickets in YouTrack |
+| `project-manager` | Opus | Plans, reports, retros and tuning the agents themselves |
 
-Research first, then developer and tester (in parallel when the interface exists), docs last, and the review gate before anything is called done.
+Research first, then the data layer, then UI and tests against its interface (in parallel when the interface already exists), docs last, and the review gate before anything is called done.
 
 </details>
 
