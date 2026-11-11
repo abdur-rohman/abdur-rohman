@@ -36,7 +36,7 @@ Senior Mobile Developer with **5+ years** building production Flutter apps and g
 - 🧑‍🏫 &nbsp;**Tech Fellow & Training Manager** at Refactory · 2021 – 2023
 - 🎓 &nbsp;**Informatics**, [Universitas Muhammadiyah Surakarta](https://www.ums.ac.id/en/home/)
 - 🏠 &nbsp;Based in **Yogyakarta, Indonesia**
-- 🤖 &nbsp;Shipping with an AI-assisted workflow: **VS Code + Claude Code**, 10 orchestrated agents
+- 🤖 &nbsp;Shipping with an AI-assisted workflow: **VS Code + Claude Code**, 9 orchestrated agents
 
 ## 🛠 &nbsp;Tech Stack
 
@@ -66,18 +66,17 @@ I write code in **VS Code** and pair with **Claude Code**. Multi-part work (a ti
 
 ```mermaid
 flowchart LR
-    Me([👨‍💻 Me]) ==> O{{orchestrator<br/>Opus · routes work}}:::opus
+    Me([👨‍💻 Me]) ==> O{{orchestrator<br/>inherits session model · routes work}}:::opus
 
-    O -->|1 · investigate| R[researcher<br/>Sonnet · read-only]:::sonnet
+    O -->|1 · investigate| R[researcher<br/>Haiku · read-only]:::haiku
     O -->|2 · data layer| DD[data-developer<br/>Sonnet]:::sonnet
-    O -->|3 · screens| UI[ui-developer<br/>Opus]:::opus
+    O -->|3 · screens| UI[ui-developer<br/>Sonnet]:::sonnet
     O -->|3 · tests| T[tester<br/>Sonnet]:::sonnet
-    O -->|4 · docs| DOC[documenter<br/>Haiku]:::haiku
-    O -->|5 · gate| L[lensa-reviewer<br/>Opus · read-only]:::opus
+    O -->|4 · gate| L[lensa-reviewer<br/>Sonnet · read-only]:::sonnet
 
     O -.->|build & CI| RE[release-engineer<br/>Sonnet]:::sonnet
-    O -.->|tickets| TM[ticket-manager<br/>Sonnet]:::sonnet
-    O -.->|plans & retros| PM[project-manager<br/>Opus]:::opus
+    O -.->|tickets| TM[ticket-manager<br/>Haiku]:::haiku
+    O -.->|plans, retros, docs| PM[project-manager<br/>Sonnet]:::sonnet
 
     L -. findings .-> UI
     L -. findings .-> DD
@@ -88,7 +87,7 @@ flowchart LR
 ```
 
 <div align="center">
-<sub>🟦 <b>Opus</b> · filled &nbsp;|&nbsp; <b>Sonnet</b> · outlined &nbsp;|&nbsp; <b>Haiku</b> · dashed &nbsp;|&nbsp; numbers give the run order, dashed arrows run on demand</sub>
+<sub>🟦 <b>Session model</b> · filled &nbsp;|&nbsp; <b>Sonnet</b> · outlined &nbsp;|&nbsp; <b>Haiku</b> · dashed &nbsp;|&nbsp; numbers give the run order, dashed arrows run on demand</sub>
 </div>
 
 <details>
@@ -98,18 +97,17 @@ flowchart LR
 
 | Agent | Model | Owns |
 | --- | --- | --- |
-| `orchestrator` | Opus | Splits the task, dispatches specialists, reconciles results |
-| `researcher` | Sonnet | Where code lives, how a flow works, the ticket and API contract |
+| `orchestrator` | Session model | Splits the task, dispatches specialists, reconciles results |
+| `researcher` | Haiku | Where code lives, how a flow works, the ticket and API contract |
 | `data-developer` | Sonnet | API clients, models, repositories, services, DI, native source |
-| `ui-developer` | Opus | Pages, widgets, controllers, bindings, animations, routes |
+| `ui-developer` | Sonnet | Pages, widgets, controllers, bindings, animations, routes |
 | `tester` | Sonnet | Unit, widget and controller tests, mocks, coverage |
-| `documenter` | Haiku | README, project rules, analytics event registry |
-| `lensa-reviewer` | Opus | Self-review against the merge quality gate, read-only |
+| `lensa-reviewer` | Sonnet | Self-review against the LenSa merge gate, verifies findings, writes the MR description, read-only |
 | `release-engineer` | Sonnet | CI, fastlane, Gradle, Podfile, Xcode, signing, dependencies |
-| `ticket-manager` | Sonnet | Creating and splitting tickets in YouTrack |
-| `project-manager` | Opus | Plans, reports, retros and tuning the agents themselves |
+| `ticket-manager` | Haiku | Creating and splitting tickets in YouTrack |
+| `project-manager` | Sonnet | Plans, reports, retros, README and `CLAUDE.md`, tuning the agents themselves |
 
-Research first, then the data layer, then UI and tests against its interface (in parallel when the interface already exists), docs last, and the review gate before anything is called done.
+Research first, then the data layer, then UI and tests against its interface (in parallel when the interface already exists), and the review gate before anything is called done.
 
 </details>
 
