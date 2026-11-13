@@ -66,11 +66,11 @@ I write code in **VS Code** and pair with **Claude Code**. Multi-part work (a ti
 
 ```mermaid
 flowchart LR
-    Me([👨‍💻 Me]) ==> O{{orchestrator<br/>inherits session model · routes work}}:::opus
+    Me([👨‍💻 Me]) ==> O{{orchestrator<br/>session model · routes work}}:::opus
 
     O -->|1 · investigate| R[researcher<br/>Haiku · read-only]:::haiku
     O -->|2 · data layer| DD[data-developer<br/>Sonnet]:::sonnet
-    O -->|3 · screens| UI[ui-developer<br/>Sonnet]:::sonnet
+    O -->|3 · screens| UI[ui-developer<br/>Session model]:::opus
     O -->|3 · tests| T[tester<br/>Sonnet]:::sonnet
     O -->|4 · gate| L[lensa-reviewer<br/>Sonnet · read-only]:::sonnet
 
@@ -87,7 +87,7 @@ flowchart LR
 ```
 
 <div align="center">
-<sub>🟦 <b>Session model</b> · filled &nbsp;|&nbsp; <b>Sonnet</b> · outlined &nbsp;|&nbsp; <b>Haiku</b> · dashed &nbsp;|&nbsp; numbers give the run order, dashed arrows run on demand</sub>
+<sub>🟦 <b>Session model</b> (inherits whatever the session runs: Fable, Opus or Sonnet) · filled &nbsp;|&nbsp; <b>Sonnet</b> · outlined &nbsp;|&nbsp; <b>Haiku</b> · dashed &nbsp;|&nbsp; numbers give the run order, dashed arrows run on demand</sub>
 </div>
 
 <details>
@@ -100,7 +100,7 @@ flowchart LR
 | `orchestrator` | Session model | Splits the task, dispatches specialists, reconciles results |
 | `researcher` | Haiku | Where code lives, how a flow works, the ticket and API contract |
 | `data-developer` | Sonnet | API clients, models, repositories, services, DI, native source |
-| `ui-developer` | Sonnet | Pages, widgets, controllers, bindings, animations, routes |
+| `ui-developer` | Session model | Pages, widgets, controllers, bindings, animations, routes |
 | `tester` | Sonnet | Unit, widget and controller tests, mocks, coverage |
 | `lensa-reviewer` | Sonnet | Self-review against the LenSa merge gate, verifies findings, writes the MR description, read-only |
 | `release-engineer` | Sonnet | CI, fastlane, Gradle, Podfile, Xcode, signing, dependencies |
